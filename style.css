@@ -1,0 +1,104 @@
+
+    /* Centralizing the titles */
+    h1, h2 {
+        text-align: center;
+    }
+
+    * {
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+
+    /* Table styling for mentor's available slots */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+        margin: 0 auto;
+      }
+      
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+      
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      
+      /* Add hover effect to table rows */
+      tbody tr:hover {
+        background-color: #f5f5f5;
+      }
+      
+      
+      th, td {
+        padding: 15px;
+      }
+      
+      
+      /* Style the form */
+      form {
+        width: 200px; 
+        margin: 0 auto; 
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+      }
+      
+      
+      /* Style the form labels */
+      label {
+        font-weight: bold;
+        color: #666;
+      }
+      
+      /* Style the form inputs */
+      input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+      
+
+      button:hover {
+        color: white;
+        box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+        background-color: rgba(104, 85, 224, 1);
+      }
+
+      /* Style the submit button */
+      button {
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        font-weight: 600;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 0 10px;
+        width: 40%;
+        padding: 10px 0;
+        display: block;
+        margin: 0px auto;
+      }
+
+      /* put some space before the signup button */
+      #signup_button {
+        margin-top: 15px;
+      }
+      
+      #search_fields {
+        width: 500px;
+      }

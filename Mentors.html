@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Search for a mentor</h1>
+    <form id="search_fields">
+        <label class="field" for="review-scores">Minimum review score:</label>
+        <select type="review-scores" id="review-scores" style="width: 30px">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <label class="field" for="location"><br>Location:</label>
+        <select type="location" id="location">
+          <option value="-" selected>-</option>
+        </select>
+
+        <label class="field" for="company"><br>Company:</label>
+        <select type="company" id="company">
+          <option value="-" selected>-</option>
+        </select>
+
+        <label class="field" for="job-category"><br>Job-Category:</label>
+        <select type="job-category" id="job-category">
+          <option value="-" selected>-</option>
+        </select>
+
+        <button class="buttons" id="search_button">Search</button>
+    </form>
+  <h2>Mentors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Profile Picture</th>
+          <th>Name</th>
+          <th>Available Slots</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr href="mentor1/request.html">
+          <td><img src="image1.jpg"></td>
+          <td>Mentor 1</td>
+          <td>Thursday at 9:00 AM<br>Friday at 10:00 AM</td>
+        </tr>
+        <tr href="'mentor2/request.html">
+          <td><img src="image2.jpg"></td>
+          <td>Mentor 2</td>
+          <td>Monday at 1:00 PM<br>Wednesday at 3:00 PM</td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>
